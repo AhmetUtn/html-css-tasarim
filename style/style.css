@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0;
+    background-color: aqua;
+}
+.header{
+    width: 1350px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+.logo{
+    font-size: 40px;
+}
+.header ul a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.anasayfa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    width: 1350px;
+    margin: auto;
+}
+.footer ul a{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
